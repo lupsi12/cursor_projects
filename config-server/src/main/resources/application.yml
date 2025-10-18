@@ -5,10 +5,10 @@ spring:
     config:
       server:
         git:
-          url:https://github.com/lupsi12/cursor_projects.git
+          uri: https://github.com/lupsi12/cursor_projects
           default-label: main
           search-paths: 
-            - configuratins/
+            - configurations/
             - configurations/{application}
 
 server:
