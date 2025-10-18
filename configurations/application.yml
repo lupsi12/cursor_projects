@@ -9,7 +9,7 @@ spring:
           default-label: master
           search-paths: 
             - configuratins/
-            -configurations/{application}
+            - configurations/{application}
 
 server:
   port: 8787
