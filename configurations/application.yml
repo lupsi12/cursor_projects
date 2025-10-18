@@ -1,15 +1,5 @@
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          url:
-          default-label: master
-          search-paths: 
-            - configuratins/
-            - configurations/{application}
-
-server:
-  port: 8787
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
