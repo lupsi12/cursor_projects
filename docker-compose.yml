@@ -1,5 +1,4 @@
 services:
-
   productsv_db:
     image: postgres:16
     environment:
@@ -7,7 +6,7 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=productservice_db_password
     ports:
-      - 5432:5432
+      - 5433:5433
     volumes:
       - productsdb_vol:/var/lib/postgresql/data
 
